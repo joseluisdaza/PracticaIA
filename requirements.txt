@@ -1,0 +1,44 @@
+# ============================================
+# Proyecto: Predicción de Precios de Bienes Raíces
+# Materia: Inteligencia Artificial y MLOps
+# Universidad: Católica Boliviana - San Pablo
+# ============================================
+
+# Manipulación y Análisis de Datos
+pandas
+numpy
+
+# Machine Learning y Modelos
+scikit-learn
+xgboost
+lightgbm
+
+# PyCaret - Automatización de ML
+pycaret
+
+# Visualización
+matplotlib
+seaborn
+plotly
+
+# Estadísticas
+scipy
+statsmodels
+
+# Procesamiento e Imputación
+imbalanced-learn
+
+# Validación y Evaluación
+shap
+
+# Utilitarios
+python-dotenv
+tqdm
+
+# Jupyter Notebook
+jupyter
+jupyterlab
+ipywidgets
+
+# Otros
+requests
