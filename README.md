@@ -21,18 +21,55 @@
 
 ## Introducción
 
-...
+Construir un modelo de Machine Learning avanzado para predecir precios de propiedades inmobiliarias en Australia utilizando PyCaret, aplicando todas las fases de un proyecto profesional de Ciencia de Datos.
 
 ### Métodos Utilizados
+
 ...
 
 ### Tecnologías
-* Python
-* Pandas
-* PyCaret
-...
+
+1. Manipulación y Análisis de Datos
+   - pandas
+   - numpy
+
+2. Machine Learning y Modelos
+   - scikit-learn
+   - xgboost
+   - lightgbm
+
+3. Automatización de ML
+   - pycaret
+
+4. Visualización
+   - matplotlib
+   - seaborn
+   - plotly
+
+5. Estadísticas
+   - scipy
+   - statsmodels
+
+6. Procesamiento e Imputación
+   - imbalanced-learn
+
+7. Validación y Evaluación
+   - shap
+
+8. Utilitarios
+   - python-dotenv
+   - tqdm
+
+9. Jupyter Notebook
+   - jupyter
+   - jupyterlab
+   - ipywidgets
+
+10. Otros
+    - requests
 
 ## Descarga y Configuración
+
 ### Requisitos Previos
 
 Este proyecto necesita que Anaconda esté instalado en la computadora.
@@ -48,23 +85,22 @@ Puede descargar el código fuente clonando este repositorio usando Git:
 2. Clone el repositorio
 
 ```
-git clone <GITHUB_REPO_URL>
+git clone https://github.com/joseluisdaza/PracticaIA.git
 ```
 
-3. Abra el archivo notebook ** *.ipynb** en Anaconda.
+3. Abra el archivo notebook ** regression_pycaret.ipynb** en Anaconda o en VSCode con el plugin de Anaconda configurado.
 
 ```
-jupyter notebook <FILE.ipynb
+jupyter notebook regression_pycaret.ipynb
 ```
-
 
 ## Declaración del Problema
 
-...
+El análisis de datos de precios de propiedades en Australia tomando en cuenta diferentes características cómo el tipo de clasificación del terreno, superficie, ubicación eta
 
 ### Objetivo Comercial
 
-...
+Proveer una herramienta que enbase al entrenamiento de modelos de AI, pueda
 
 ---
 
@@ -93,30 +129,34 @@ jupyter notebook <FILE.ipynb
 
 ### Conclusions
 
-R2_Score for Ridge regresion.... 
-R2_Score for Lasso regresion.... 
-R2_Score for ElasticNet regresion.... 
+R2_Score for Ridge regresion....
+R2_Score for Lasso regresion....
+R2_Score for ElasticNet regresion....
 
 #### Ridge Regression (Segun PyCaret)
-* **Optimal Lambda Value:** ##
-* **R2 Score Train:** 0.##
-* **R2 Test Score:**  0.##
-* **RMSE Test:**      0.##
+
+- **Optimal Lambda Value:** ##
+- **R2 Score Train:** 0.##
+- **R2 Test Score:** 0.##
+- **RMSE Test:** 0.##
 
 #### Lasso Regression (Segun PyCaret)
-* **Optimal Lambda Value:** 0.####
-* **R2 Score Train:**  0.##
-* **R2 Test Score:**   0.##
-* **RMSE Test:**       0.##
+
+- **Optimal Lambda Value:** 0.####
+- **R2 Score Train:** 0.##
+- **R2 Test Score:** 0.##
+- **RMSE Test:** 0.##
 
 #### ElasticNet Regression (Segun PyCaret)
-* **Optimal Lambda Value:** 0.####
-* **R2 Score Train:**  0.##
-* **R2 Test Score:**   0.##
-* **RMSE Test:**       0.##
+
+- **Optimal Lambda Value:** 0.####
+- **R2 Score Train:** 0.##
+- **R2 Test Score:** 0.##
+- **RMSE Test:** 0.##
 
 #### Las Variables Más Significativas Son:
-* ...
-* ...
-* ...
-* ...
+
+- ...
+- ...
+- ...
+- ...
